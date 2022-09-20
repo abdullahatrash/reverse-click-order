@@ -1,0 +1,30 @@
+.grid-layout {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 0.25rem;
+}
+
+.grid-layout .row {
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+  gap: 0.25rem;
+}
+
+.grid-layout .row .cell {
+  width: 5rem;
+  box-sizing: border-box;
+}
+
+.simple-border {
+  border: 1px solid black;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clicked {
+  background: lightgreen;
+}
